@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+*.out
+*.err
+data/
+train/*.out
+masteringchessandshogibyseflfplay.pdf
+checkpoints/ppo_latest.pt
+checkpoints/run4.pt
+checkpoints/ei1_tau*.pt
+checkpoints/v2_init_from_run4.pt

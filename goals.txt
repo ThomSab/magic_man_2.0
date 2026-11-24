@@ -1,0 +1,170 @@
+implement the card game wizard as a text based console game:
+
+	http://wizardcards.com/viewthread.php?tid=1546
+
+	WIZARD in a Nutshell: (Summary of basic rules)
+
+	Playing Card Deck: 60-card deck (regular 52-card deck + 4 Wizards & 4 Jesters)
+
+	Object: To win exactly the number of ‘tricks’ that you bid.
+
+	First Deal
+
+	· Each player is dealt 1 card and the next card is turned face up to determine trump.
+
+	· Each player in turn announces how many tricks he expects to win.
+
+	· The player to the dealer’s left plays a card and play continues in clockwise order.
+
+	· If possible, players must play the same suit as the card that is led. If not possible, players may play a trump card (to possibly win) or slough off a different suit card (to lose).
+
+	· Exception: A Wizard or a Jester can be played at any time.
+
+	· Wizards win tricks and jesters count as nothing (i.e., they lose)
+
+	Glossary
+
+	Round: The playing of one card by each player.
+
+	Trick: All cards won in a single round. The person who wins the round is said to have won the “trick”.
+
+	Trump: A card suit that ranks above the other 3 suits.
+
+	Winning a Trick
+
+	A trick is won:
+	· By the first Wizard played.
+	· If no Wizard is played, by the highest trump card played.
+	· If no trump is played, by the highest card of the suit led.
+
+	Subsequent Deals
+
+	· The full deck is reshuffled and 2 cards are dealt to each player for the second round, 3 for the third round and so on.
+
+	· The winner of a trick leads the first card of the next round.
+
+	Scoring
+
+	· 20 points if you make your bid plus 10 points for each trick won.
+
+	· Minus 10 points for each trick under or over your bid.
+	--------------------------------------------------------------------------------
+
+	Read this if you are unfamiliar with "Trick-Taking" card games.
+
+	TRICKS
+
+	To play “Wizard” you need to understand what is meant by a “Trick”.
+	A “trick” can be defined as a round of cards played, one from each player’s hand.
+	On the first round of play in Wizard each person is dealt only one card so there is only one trick available. The first person to play (lead) is the person to the left of the dealer. The highest card of the suit that is played (led) wins all the cards (trick).
+	E.g. If the 8 of Hearts is led it will win the trick unless someone else plays a Heart that is higher in rank.
+
+	The deal passes to the left for the second deal. On the second round of play in “Wizard” each person is dealt 2 cards so there are 2 tricks available. * Note that the other players must follow suit (play the same suit) if possible.
+
+	E.g. If the 9 of Spades is led the other players must play a Spade (follow suit) if they hold one in their hand. (If they have no Spade they can play any card but cannot win the trick.). The person who plays the highest Spade wins the trick and leads the first card for the second trick. If a Club is played then the second trick is won by the player who plays the highest Club.
+
+	Three cards are dealt for hand 3, 4 for hand 4, 5 for hand 5 and so on.
+
+	The number of “tricks” available in each hand is always equal to the number of cards dealt to each player. If each player is dealt 10 cards there are 10 ‘tricks’ available.
+
+	TRUMP
+
+	To play “Wizard” you must also understand what is meant by “Trump”
+
+	After each deal a card is turned up from the deck (the upcard). The upcard determines the “trump” for that round of play. If a Club is turned up then Clubs are “Trump”. This means that any Club card is ranked higher than any of the Hearts, Diamonds or Spades. If Clubs are Trump then a 2 of Clubs will win over an Ace, King, Queen, etc. of any other suit.
+
+	E.g. In round 1 the ‘upcard’ is a 6 of Diamonds so Diamonds are trump. If the first card led is the 10 of Hearts the highest Diamond played will win the trick because Diamonds are Trump. If no Diamond is played then the highest Heart played will win the trick because Hearts were led.. Note that if the player has a Heart in his hand he must follow suit if a Heart is led.
+
+	The deal passes to the left for the second hand in which each player is dealt 2 cards. After the deal a card is turned up to determine the trump suit. The player to the left of the dealer plays first and other players must follow suit if they can.
+
+	E.g. A 3 of Clubs is turned up so Clubs are trump. The first player plays an Ace of Hearts. Other players must also play a Heart if they hold one in their hand. The Ace of Hearts will win the trick unless a Club (trump) is played. If more than 1 trump is played the highest trump wins the trick. The winner of the first trick plays the first card of the second round. If a Diamond is led the highest Diamond will win the trick unless a Trump is played, in which case the highest trump wins.
+
+	Bidding
+
+	In “Wizard” each player in turn “bids”. This means that after examining his cards he declares how many “tricks” he expects to win. In “Wizard” the player must win the exact number of tricks that he bid. If he wins fewer or more tricks than he bid he loses points.
+
+	E.g. In round 1 everyone is dealt one card and the 5 of Diamonds is turned up as Trump.
+
+	If you are holding a high diamond such as the Jack, Queen, King or Ace you will bid 1 because you expect to win the trick.
+
+	In round 2 you hold 2 cards and the 10 of Spades is turned up as trump. If you are holding the 3 of Spades and a 6 of Clubs you may decide to bid zero even though you have a trump card. You hope that somebody else will have a higher Spade to win over your 3 of Spades.
+
+	Wizards and Jesters
+
+	The most important thing to remember about Wizard and Jesters is that they CAN BE PLAYED AT ANY TIME. If you hold a Wizard or a Jester in your hand you can play the card whenever you decide that it is best for you.
+
+	Wizards
+
+	There are 4 Wizard Cards in the deck. They are all equal in rank and do not belong to any of the 4 suits. They rank higher than any other card. A Wizard ranks higher than the Ace of Trump. If Clubs are Trump then the only card that can beat the Ace of Clubs is a Wizard.
+
+	The only time that a Wizard will NOT win a Trick is if it is not the first Wizard played during a round (trick). This is important because sometimes you want to get rid of a Wizard (dump it) without winning a trick with it.
+
+	E.g. In round 3 you hold a Wizard, a 10 of Clubs, and a 4 of Spades. Hearts are trump so you bid 1. However a club is led and you win the first trick with your 10 of clubs. You do not want to win any more tricks so you lead the 4 of Spades to start the second trick. You expect someone else to win the second trick. Then you hope that some one will play a Wizard during the third trick allowing you to ‘dump’ your Wizard. The second Wizard played loses.
+
+	Jesters
+
+	There are 4 Jesters in the deck. They are all equal in rank and do not belong to any of the 4 suits. They rank lower than any other card. The only time that a Jester can win a trick is when all players play a Jester in which case the first person to play the Jester wins the trick. Notice that this is only possible in games with fewer than 5 players as there are only 4 Jesters in the deck.
+
+	Jesters are very useful as they can help you to win a trick and they can help you to not win a trick.
+
+	E.g. You hold a Jester and a Queen of Clubs and want to win a trick. A small Club is played and the next person plays the King of Clubs. You can play the Jester and keep your Queen of Clubs, hoping to win the next trick
+
+	E.g. You hold a Jester and a Queen of Clubs and do not want to win any tricks. A small Club is played and you must play next. You can play the Jester and keep your Queen of Clubs, hoping to lose it on the next trick.
+
+	Winning a Trick
+
+	A trick is won:
+	(a) By the first Wizard played,
+	(b) If no Wizard is played, by the highest trump card played,
+	(c) If no trump is played, by the highest card of the suit led.
+
+	Scoring
+
+	In “Wizard” you only get points when you make your exact bid.
+
+	(a) Made Bids: You get 20 points for making your bid plus an additional 10 points for each trick that you take. If you bid Zero and make no tricks you get 20 points. If you bid 1 and make 1 then you get 30 points (20+10)
+
+	(b) Failed Bids: You lose 10 points for each trick you are over or under your bid. If you bid 2 and make 1 you lose 10 points. If you bid 2 and make 4 you lose 20 points.
+
+	Glossary
+
+	Bid: A spoken declaration to win a specified number of tricks.
+	Deal: The act of portioning out the cards to the players.
+	Draw trumps: To lead high trumps in order to deplete opponent's hand of trumps.
+	Dump: To get rid of a potentially winning card by playing it on a higher ranking card.
+	Face card: A king, queen, or jack.
+	Face value: The numerical value of a card.
+	Follow suit: To play a card of the suit led.
+	Hand: The cards dealt to a player; also, the period of play between one deal and the next.
+	Jester: A jester is a null card, can be played at any time and almost always loses.
+	Lead: To play the first card to a trick.
+	No-trump: The condition when no suit is trumps.
+	Round: The playing of one card by each player.
+	Singleton: A holding of only one card in a suit.
+	Table: The playing area
+	Trick: A round of cards played, one from each player's hand.
+	Trump: A suit designated to be higher ranking than any other suit; any card in that suit. Also, to play a trump card on a trick.
+	Upcard: The first card turned up after a deal.
+	Void: A lack of a suit in a player's hand.
+	Wizard: A Wizard card is the highest ranking, can be played at any time and usually wins.
+
+
+
+implement an agent that plays the game. 
+its likely a good idea to first implement a baseline agent based on heuristics.
+then improve on the baseline with a network-based agent. likely the best approach is deep reinforcement learning. ive put the alpha zero paper in the directory for inspiration. 
+
+this computer has a gpu that you can use for training agents.
+
+create a markdown file that documents your progress.
+
+
+=== DECISIONS (saved) ===
+- Exactly 4 players; rounds 1-15 (60 cards / 4).
+- Trump = suit of upcard. If upcard is Wizard or Jester, trump suit chosen at random.
+- Round 15: all cards dealt, no upcard, no trump.
+- Bid restriction: dealer cannot bid a number making sum of bids equal number of tricks.
+- Jester led: suit set by first non-Jester card played; all-Jester trick won by first Jester.
+- Stack: Python 3.11 + PyTorch 2.0.1 (CUDA), RTX 3070 8GB, 16 CPU threads.
+- Goal: as strong as possible, better than human.
+- Plan: engine -> console -> heuristic baseline -> PIMC search -> PPO self-play net -> net+search (expert iteration) -> eval.
